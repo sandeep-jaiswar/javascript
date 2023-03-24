@@ -1,4 +1,6 @@
- function getTodos() {
+//explain async await in js
+
+function getTodos() {
   console.log("Getting todos...");
   return new Promise((resolve, reject) => {
     setTimeout(() => {
